@@ -6,20 +6,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Vivid Fusion</title>
 </head>
 <body>
     <!-- Hero Section-->
-    <section class="hero">
+    <section class="hero" id="hero">
         <nav class="container">
             <div>
                 <p class="logo">Vivid Fusion</p>
             </div>
-            <ul>
-                <li><a href="#">link-one</a></li>
-                <li><a href="#">link-two</a></li>
-                <li><a href="#">link-three</a></li>
+            <ul class="links">
+                <li><a href="#information">Skills</a></li>
+                <li><a href="#cta">Hire me</a></li>
             </ul>
         </nav>
 
@@ -32,13 +35,13 @@
             <img src="./img/main.jpg" alt="">
         </div>
         <div class="icon-box">
-          <a href="#" rel="">
+          <a href="#information" rel="">
             <i class="fa-solid fa-angles-down fa-beat fa-xl icon" style="color: #47d19a;"></i>
           </a>
         </div>
     </section>
     <!--End Hero Section-->
-    <section class="information">
+    <section class="information" id="information">
         <h2>My Skills</h2>
         <div class="information-content">
             <div>
@@ -66,6 +69,20 @@
         </div>
 
     </section>
+    <section class="cta" id="cta">
+        <div class="cta-box">
+            <h3><span class="style-h">H</span>ire me if u like what u see</h3>
+            <p>Don't hesitate to write me about anything.</p>
+            <form action="#">
+                <input type="email" id="email" name="email" placeholder="Enter your Email">
+                <input type="submit" value="send">                        
+                
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; TasosBeast 2023</p>
+    </footer>
 
 
     <script src="https://kit.fontawesome.com/34a18e24da.js" crossorigin="anonymous"></script>
