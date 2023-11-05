@@ -5,6 +5,7 @@ body{
     padding: 0;
     color: white;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -92,51 +93,49 @@ button:active{
 }
 
 /*End Hero Section */
+/*End Information section*/
 
 .information{
-    height: 100vh;
+    height: 60vh;
     background-color: #f0dce6;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 .information h2 {
     color: #1F2937;
     text-align: center;
     margin-top: 0;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 .information-content{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin-top: 80px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
     color: black;
 }
 
 .information-content > * {
-    border: 10px solid #20a761;
+    border: 10px solid #1f2937;
     background-color: #d2e7ce;
     border-radius: 20px;
-    width: 390px;
+    width: 290px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 24px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;;
+    font-size: 22px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    padding: 10px;
+    flex-basis: 350px;
+    flex-shrink: 0;
 }
 
 .icon-information{
     font-size: 150px;
     text-align: center;
 }
-
-.ol-html{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    list-style: none;
-    padding: 0;
-}
+/*End Information Section*/
