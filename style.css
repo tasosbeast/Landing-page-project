@@ -51,7 +51,7 @@ nav {
   background-color: #1f2937;
   padding-left: 20px;
   padding-right: 20px;
-  height: 60vh;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +80,7 @@ nav {
   font-size: 18px;
   color: #e5e7eb;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .hero-btn {
