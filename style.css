@@ -103,7 +103,7 @@ nav {
 
 /* info section */
 .info-section {
-  height: 450px;
+  min-height: 450px;
 }
 
 .info-title {
@@ -117,6 +117,7 @@ nav {
 .info-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -167,7 +168,7 @@ figcaption {
 /* cta section */
 
 .cta {
-  height: 300px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,3 +212,15 @@ figcaption {
 }
 
 /* end of cta section */
+
+/* footer section */
+footer {
+  background-color: #1f2937;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+/* footer section ends here */
