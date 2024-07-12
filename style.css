@@ -103,7 +103,7 @@ nav {
 
 /* info section */
 .info-section {
-  height: 400px;
+  height: 450px;
 }
 
 .info-title {
@@ -141,3 +141,25 @@ nav {
 }
 
 /* info section ends here */
+
+/* testimonial section */
+.testimonial {
+  background-color: #e5e7eb;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  font-size: 36px;
+  width: 800px;
+  font-weight: 300;
+}
+
+figcaption {
+  font-size: 24px;
+  text-align: right;
+}
+
+/* testimonial section ends here */
