@@ -163,3 +163,51 @@ figcaption {
 }
 
 /* testimonial section ends here */
+
+/* cta section */
+
+.cta {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  width: 1200px;
+  background-color: #3882f6;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.cta-content {
+  color: #f9faf8;
+}
+
+.cta-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.cta-content p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cta-btn {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  padding: 7px 30px;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+/* end of cta section */
